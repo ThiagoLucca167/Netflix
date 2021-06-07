@@ -1,0 +1,52 @@
+:root{
+    --preto-claro:#211f1f;
+    --vermelho:#cf0920;
+}
+body{
+    background:var(--preto-claro);
+}
+.container-fluid{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.container-fluid h2{
+    font-size: 10rem;
+    font-family: sans-serif;
+    color: var(--vermelho);
+}
+.container-fluid button{
+    height: 60px;
+    width: 200px;
+    border: none;
+    border-radius: 35px;
+    background-color:  rgba(214, 39, 39, 0.705);
+}
+.container-fluid button p{
+    color: #b2bec3;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+.IT{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    float: right
+}
+.IT a{
+    text-decoration: none;
+}
+.IT span{
+    color: #b2bec3;
+    padding: 10px;
+}
+span img{
+    width: 65px;
+}
+#nickname{
+    margin: 0 auto;
+    font-size: 20px;
+    position: relative;
+    left: 8px;
+}

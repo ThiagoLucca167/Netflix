@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-    <title>Netflix clone</title>
+    <title>MAFIAFLIX</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/owl-css/owl.carousel.min.css">
     <link rel="stylesheet" href="css/owl-css/owl.theme.default.min.css">
@@ -19,14 +19,13 @@
             <h2 class="logo">MAFIAFLIX</h2>
             <nav>
                 <a href="#">Inicio</a>
-                <a href="#">Séries</a>
-                <a href="#">Filmes</a>
-                <a href="#">Documentário</a>
-                <a href="#">Minha Lista</a>
+                <a href="#series">Séries</a>
+                <a href="#filmes">Filmes</a>
+                <a href="#documentarios">Documentários</a>
             </nav>
         </div>
     </header>
-
+<!-- banner-->
     <main>
         <div class="filme-principal">
             <div class="container">
@@ -35,31 +34,111 @@
                 <div class="botoes">
                     <button role="button" class="botao">
                         <i class="fas fa-play"></i>
-                          Assistir Agora
+                         Assistir Agora
                     </button>
                     <button role="button" class="botao">                   
                         <i class="fas fa-info"></i>
-                        Mais Informações             
+                        Mais Informações           
                     </button>
                 </div>
             </div>    
         </div>
     </main>
 
+           <!--*** em alta ***-->
+<div class="container-fluid">
+    <div class="em-alta">
+        <h3> Em Alta</h3>
+    </div>
     <div class="carousel-filmes">
         <div class="owl-carousel owl-theme">
-            <div class="item"><img class="box-filme" src="img/mini1.png"></div>
-            <div class="item"><img src="img/mini2.png" alt=""></div>
-            <div class="item"><img src="img/mini3.png" alt=""></div>
-            <div class="item"><img src="img/mini4.png" alt=""></div>
-            <div class="item"><img src="img/mini5.png" alt=""></div>
-            <div class="item"><img src="img/mini6.png" alt=""></div>
-            <div class="item"><img src="img/mini7.png" alt=""></div>
-            <div class="item"><img src="img/mini8.png" alt=""></div>
-            <div class="item"><img src="img/mini9.png" alt=""></div>
-            <div class="item"><img src="img/mini10.png" alt=""></div>
+            <div class="item"><img class="box-filme" src="img/series/mini1.png"></div>
+            <div class="item"><img src="img/filmes/mini2.png" alt=""></div>
+            <div class="item"><img src="img/documentarios/mini3.png" alt=""></div>
+            <div class="item"><img src="img/series/mini4.png" alt=""></div>
+            <div class="item"><img src="img/filmes/mini5.png" alt=""></div>
+            <div class="item"><img src="img/documentarios/mini6.png" alt=""></div>
+            <div class="item"><img src="img/series/mini7.png" alt=""></div>
+            <div class="item"><img src="img/filmes/mini8.png" alt=""></div>
+            <div class="item"><img src="img/documentarios/mini9.png" alt=""></div>
+            <div class="item"><img src="img/series/mini10.png" alt=""></div>
         </div>
     </div>
+</div>
+
+      <!--*** FILMES ***-->
+            <section id="filmes">
+                <div class="container-fluid">
+                    <div class="titulo-secundario">
+                        <h3>Filmes</h3>
+                    </div>
+                    <div class="carousel-filmes">
+                        <div class="owl-carousel owl-theme">
+                            <div class="item"><img class="box-filme" src="img/filmes/mini1.png"></div>
+                            <div class="item"><img src="img/filmes/mini2.png" alt=""></div>
+                            <div class="item"><img src="img/filmes/mini3.png" alt=""></div>
+                            <div class="item"><img src="img/filmes/mini4.png" alt=""></div>
+                            <div class="item"><img src="img/filmes/mini5.png" alt=""></div>
+                            <div class="item"><img src="img/filmes/mini6.png" alt=""></div>
+                            <div class="item"><img src="img/filmes/mini7.png" alt=""></div>
+                            <div class="item"><img src="img/filmes/mini8.png" alt=""></div>
+                            <div class="item"><img src="img/filmes/mini9.png" alt=""></div>
+                            <div class="item"><img src="img/filmes/mini10.png" alt=""></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--*** SERIES ***-->
+            <section>
+                <main id="series">
+                    <div class="container-fluid">
+                        <div class="titulo-terceiro">
+                            <h3>Séries</h3>
+                        </div>
+                        <div class="carousel-filmes">
+                            <div class="owl-carousel owl-theme">
+                                <div class="item"><img class="box-filme" src="img/series/mini10.png"></div>
+                                <div class="item"><img src="img/series/mini1.png" alt=""></div>
+                                <div class="item"><img src="img/series/mini2.png" alt=""></div>
+                                <div class="item"><img src="img/series/mini3.png" alt=""></div>
+                                <div class="item"><img src="img/series/mini4.png" alt=""></div>
+                                <div class="item"><img src="img/series/mini5.png" alt=""></div>
+                                <div class="item"><img src="img/series/mini6.png" alt=""></div>
+                                <div class="item"><img src="img/series/mini7.png" alt=""></div>
+                                <div class="item"><img src="img/series/mini8.png" alt=""></div>
+                                <div class="item"><img src="img/series/mini9.png" alt=""></div>
+                            </div>
+                        </div>
+                    </div>
+                </main>
+            </section>
+<!--*** DOCUMENTARIO ***-->
+            <section>
+                <main id="documentarios">
+                    <div class="container-fluid">
+                        <div class="titulo-terceiro">
+                            <h3>Documentários</h3>
+                        </div>
+                        <div class="carousel-filmes">
+                            <div class="owl-carousel owl-theme">
+                                <div class="item"><img class="box-filme" src="img/documentarios/mini1.png"></div>
+                                <div class="item"><img src="img/documentarios/mini2.png" alt=""></div>
+                                <div class="item"><img src="img/documentarios/mini3.png" alt=""></div>
+                                <div class="item"><img src="img/documentarios/mini4.png" alt=""></div>
+                                <div class="item"><img src="img/documentarios/mini5.png" alt=""></div>
+                                <div class="item"><img src="img/documentarios/mini6.png" alt=""></div>
+                                <div class="item"><img src="img/documentarios/mini7.png" alt=""></div>
+                                <div class="item"><img src="img/documentarios/mini8.png" alt=""></div>
+                                <div class="item"><img src="img/documentarios/mini9.png" alt=""></div>
+                                <div class="item"><img src="img/documentarios/mini10.png" alt=""></div>
+                            </div>
+                        </div>
+                    </div>
+                </main>
+            </section>
+            
+
         <script src="js/owl/jquery.min.js"></script>
         <script src="js/owl/owl.carousel.min.js"></script>
         <script src="js/setup.js"></script>

@@ -1,6 +1,7 @@
 :root{
     --vermelho:#E50914;
     --preto:#141414;
+    --cinza:#696969;
 }
 *{
     padding: 0;
@@ -94,5 +95,24 @@ header nav a:hover{
     height: 200px;
 }
 .carousel-filmes{
-    margin-top:10px;
+    margin-top:50px;
+}
+/*em alta*/
+.em-alta h3{
+    text-align: center;
+    text-transform: uppercase;
+    margin: 15px;
+    color: var(--cinza);
+    font-size: 40px;
+    font-family: 'Arial Black', times;
+}
+
+/*filmes, Series, Documentarios*/
+section h3{
+    text-align: center;
+    text-transform: uppercase;
+    margin: 15px;
+    color: var(--cinza);
+    font-size: 40px;
+    font-family: 'Arial Black', times;
 }
